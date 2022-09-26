@@ -15,4 +15,4 @@ jobs:
         cache: maven
     
     - name: Build with Gradle
-      run: ./gradle clean build
+      run: gradle clean build
